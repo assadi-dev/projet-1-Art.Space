@@ -694,8 +694,10 @@
                 grid-template-rows: 1fr;
                 margin-left: 0;
                 margin-right: 0;
-                text-align: left;
+                text-align: justify;
                 max-width: 100%;
+                align-items: start;
+                margin-top: 1rem;
             }
             .blog-grid div {
                 width: 100%;

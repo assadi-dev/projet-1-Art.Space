@@ -12,7 +12,7 @@
     top: 0;
     z-index: 3;
     width: 100%;
-    height: 100%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -175,22 +175,17 @@
 
 @media screen and (min-width:768px) {
     .slider-display {
-        height: 440px
+        height: 268px
     }
     .blog-art-slider {
         width: 50%;
-        height: 230px;
-    }
-    .slider-display {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        height: 195px;
     }
 }
 
 @media screen and (min-width:1200px) {
     .slider-display {
-        width: 100%;
+        height: 385px;
     }
     #display-prev,
     #display-next {
