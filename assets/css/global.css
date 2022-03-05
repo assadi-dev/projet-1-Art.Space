@@ -623,6 +623,9 @@
         }
         
         @media screen and (min-width:660px) {
+            .hero-menu {
+                height: 80vh;
+            }
             .container-section {
                 width: 50%;
                 margin-left: auto;
@@ -645,9 +648,6 @@
         }
         
         @media screen and (min-width:735px) {
-            .hero-menu {
-                height: 80vh;
-            }
             .container-section {
                 display: flex;
                 justify-content: center;
