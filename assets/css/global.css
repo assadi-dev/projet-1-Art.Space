@@ -633,6 +633,14 @@
             margin-top: 1rem;
         }
         
+        .footer-col li:hover {
+            color: #fff;
+        }
+        
+        .footer-col li:active {
+            color: gray;
+        }
+        
         @media screen and (min-width:660px) {
             .hero-menu {
                 height: 80vh;
