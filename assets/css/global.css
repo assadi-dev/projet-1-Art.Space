@@ -625,7 +625,7 @@
         }
         
         .icon-footer {
-            width: 50%;
+            width: 110px;
             height: auto;
         }
         
@@ -721,18 +721,12 @@
             .blog-grid-icon-container .blog-grid-icon {
                 width: 10%;
             }
-            .icon-footer {
-                width: 20%;
-            }
             .footer-container {
                 grid-template-columns: repeat(4, .5fr);
                 padding-bottom: 5rem;
             }
             .footer-col {
                 justify-self: center;
-            }
-            .icon-footer {
-                width: 100%;
             }
         }
         
