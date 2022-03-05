@@ -2,8 +2,9 @@
 
 .slider-display {
     width: 100%;
-    height: 240px;
+    height: 225px;
     position: relative;
+    padding-bottom: 1rem;
 }
 
 .display-container {
@@ -12,7 +13,7 @@
     top: 0;
     z-index: 3;
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -175,7 +176,7 @@
 
 @media screen and (min-width:768px) {
     .slider-display {
-        height: 268px
+        height: 268px;
     }
     .blog-art-slider {
         width: 50%;
@@ -186,6 +187,7 @@
 @media screen and (min-width:1200px) {
     .slider-display {
         height: 385px;
+        width: 80%;
     }
     #display-prev,
     #display-next {
