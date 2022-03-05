@@ -45,6 +45,10 @@
             text-decoration: none;
         }
         
+        .current {
+            color: #111 !important;
+        }
+        
         .bold {
             font-weight: bold;
         }
@@ -335,7 +339,8 @@
         }
         
         .section-header-text p {
-            margin-top: 1.2rem
+            margin-top: 1.2rem;
+            margin-bottom: 1.2rem;
         }
         
         .title-section {
@@ -753,7 +758,7 @@
                 margin-right: 0;
             }
             .mobile-logo {
-                width: 30%;
+                width: 10rem;
             }
             .tour-mobile {
                 grid-template-columns: repeat(2, 1fr);
