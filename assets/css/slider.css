@@ -199,10 +199,10 @@
         height: 355px;
     }
     .screen-container {
-        transform: translateX(-50%) translateY(-54%);
-        -webkit-transform: translateX(-50%) translateY(-54%);
-        -moz-transform: translateX(-50%) translateY(-54%);
-        -ms-transform: translateX(-50%) translateY(-54%);
-        -o-transform: translateX(-50%) translateY(-54%);
+        transform: translateX(-50%) translateY(-52%);
+        -webkit-transform: translateX(-50%) translateY(-52%);
+        -moz-transform: translateX(-50%) translateY(-52%);
+        -ms-transform: translateX(-50%) translateY(-52%);
+        -o-transform: translateX(-50%) translateY(-52%);
     }
 }
