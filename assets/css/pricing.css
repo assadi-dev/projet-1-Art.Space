@@ -163,6 +163,7 @@
         font-size: 0.8rem;
         border-top: 1px solid #eaeaea;
         color: #848384;
+        height: 4rem;
     }
     
     .pricing-list-items p {
@@ -241,7 +242,7 @@
         opacity: 0;
     }
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 660px) {
         .pricing-card {
             width: 50%;
             justify-self: center;
