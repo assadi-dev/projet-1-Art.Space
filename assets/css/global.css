@@ -412,7 +412,7 @@
             grid-template-rows: repeat(3, 1fr);
             align-items: center;
             justify-content: center;
-            grid-gap: 1rem;
+            grid-gap: 2.5rem;
             padding-top: 1rem;
             padding-bottom: 1rem;
             max-width: 80%;
@@ -516,6 +516,12 @@
             margin-bottom: 1.2rem;
         }
         
+        .contributor-content {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
         .ceo-avatar {
             border-radius: 100%;
             -webkit-border-radius: 100%;
@@ -613,6 +619,28 @@
             height: auto;
         }
         
+        @media screen and (min-width:660px) {
+            .container-section {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .container-section-padding {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .blog-grid {
+                grid-gap: 2.5rem;
+            }
+            .blog-grid div p {
+                text-align: justify;
+            }
+            .mobile-logo img {
+                width: 35%;
+            }
+        }
+        
         @media screen and (min-width:735px) {
             .hero-menu {
                 height: 80vh;
@@ -620,10 +648,12 @@
             .container-section {
                 display: flex;
                 justify-content: center;
+                width: 100%;
             }
             .container-section-padding {
                 display: flex;
                 justify-content: center;
+                width: 80%;
             }
             .column-items {
                 flex-direction: column;
@@ -661,6 +691,9 @@
             .section-white img,
             .section-gray img {
                 width: 50%;
+            }
+            .contributor-content img {
+                width: 100%;
             }
             .mobile-logo img {
                 width: 30%;
