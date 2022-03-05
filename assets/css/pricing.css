@@ -222,8 +222,7 @@
     }
     /**Tooltip**/
     
-    #tooltip-standard,
-    #tooltip-unlimited {
+    .tooltip-style {
         position: absolute;
         background-color: #111;
         padding: 1.5rem;
@@ -256,7 +255,7 @@
             margin-left: 0;
             margin-right: 0;
         }
-        #tooltip-standard {
+        .tooltip-style {
             width: 30%;
         }
     }
@@ -311,7 +310,7 @@
             font-size: 1.3rem;
             font-weight: 100;
         }
-        #tooltip-standard {
+        .tooltip-style {
             width: 20%;
         }
     }
